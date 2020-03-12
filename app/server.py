@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1pNc6qez6ixtfPyzXmfbgY3twQUNwJtke'
-export_file_name = 'gordosXmagros.h5'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1iAf31o6tsIs9Ct97mAW-DzoRDURt5MWb'
+export_file_name = 'gordos.pkl'
 
 classes = ['Gordo', 'Magro']
 path = Path(__file__).parent
